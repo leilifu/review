@@ -67,7 +67,7 @@ public class Article {
             if (text != null && text.length() > 0) {
                 reviewArgs.put("text", text.toString());
             }
-            //文章ID
+            // 文章ID
             reviewArgs.put("postId", reviewRequest.getPostId());
             //审核回调地址
             reviewArgs.put("notify", reviewRequest.getNotify());
