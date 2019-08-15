@@ -80,7 +80,7 @@ public class Article {
             map.put("msg", "抱歉，文章提交失败，请重新提交");
         }
         String rtnJson = JSON.toJSONString(map);
-       /* try {
+       /*   try {
             RequestParam requestParam = new RequestParam();
             requestParam.setIp(getRealIp(request));
             requestParam.setCreateTime(new Date());
