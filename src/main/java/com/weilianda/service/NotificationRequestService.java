@@ -9,7 +9,7 @@ import com.weilianda.pojo.NotificationRequest;
 public interface NotificationRequestService {
     /**
      * 保存审核结果
-     * @param notificationRequest
+     * @param  notificationRequest
      */
     void save(NotificationRequest notificationRequest);
 }
